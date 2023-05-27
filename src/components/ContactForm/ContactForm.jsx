@@ -29,10 +29,11 @@ export class ContactForm extends Component {
             this.resetForm();
           }}
         >
-          <label className={css.label}>
+          <label htmlFor="nameInput" className={css.label}>
             Name
             <br />
             <input
+              id="nameInput"
               className={css.input}
               onChange={this.onChangeInput}
               value={this.state.name}
@@ -44,10 +45,11 @@ export class ContactForm extends Component {
             />
           </label>
           <br />
-          <label htmlFor="">
+          <label htmlFor="numberInput">
             Number
             <br />
             <input
+              id="numberInput"
               className={css.input}
               onChange={this.onChangeInput}
               value={this.state.number}
