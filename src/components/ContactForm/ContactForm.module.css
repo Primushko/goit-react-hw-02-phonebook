@@ -1,6 +1,7 @@
 .formstyle {
   padding: 24px;
-  border: 2px solid grey;
+  border: 2px solid rgb(154, 141, 238);
+  border-radius: 8px;
   width: 350px;
 }
 
